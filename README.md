@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# MoviesSearch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MoviesSearch is a React-based web application that allows users to search for movies using an external API and displays the results in a table format. It provides features for searching, sorting, and paginating through movie data.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [MoviesSearch](#moviessearch)
+    - [Table of Contents](#table-of-contents)
+    - [Overview](#overview)
+    - [Features](#features)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Technologies Used](#technologies-used)
+    - [Contributing](#contributing)
+    - [License](#license)
+    - [Teardown](#teardown)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MoviesSearch is a simple web application built with React. It allows users to search for movies by title, displays the results in a table, and provides functionalities for sorting movies by title or year, and navigating through pages of search results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Search movies by title
+- Display search results in a table format
+- Sort movies by title or year
+- Paginate through multiple pages of search results
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository.
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory.
+    ```bash
+    cd MoviesSearch/
+    ```
+3. Install dependencies.
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the application locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Run the development server
+npm start
+```
+The application will be accessible at http://localhost:3000.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- Axios
+- Bootstrap
+- React Router
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! If you want to report issues, suggest enhancements, or contribute code:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/fooBar`).
+3. Commit your changes (`git commit -am 'Add some fooBar'`).
+4. Push to the branch (`git push origin feature/fooBar`).
+5. Create a new Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Teardown
 
-## Learn More
+To stop or remove the MoviesSearch application and its environment:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Stop the Development Server:** If the development server is running, stop it by pressing `Ctrl + C` in the terminal where it's running.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Remove Dependencies:** Optionally, remove installed dependencies to free up space or clean the project directory.
+    ```bash
+    npm uninstall
+    ```
 
-### Code Splitting
+By following these steps, you can remove the MoviesSearch application and its associated environment from your local system.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
