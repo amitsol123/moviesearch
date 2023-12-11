@@ -79,8 +79,3 @@ To stop or remove the MoviesSearch application and its environment:
     ```
 
 By following these steps, you can remove the MoviesSearch application and its associated environment from your local system.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
