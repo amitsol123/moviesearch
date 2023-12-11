@@ -1,0 +1,53 @@
+.page-link {
+    color: #fff;
+    background-color: #fbb063;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: #4d4d4d; /* Dark grey on hover */
+    border-color: #000; /* Black border on hover */
+}
+
+.btn-page {
+    color: #fff;
+    background-color: #fbb063;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-page:hover {
+    color: #fff;
+    background-color: #4d4d4d; /* Dark grey on hover */
+    border-color: #000; /* Black border on hover */
+}
+
+.btn-page-selected {
+    color: #fff;
+    background-color: #4d4d4d;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-page-selected:hover {
+    color: #fff;
+    background-color: #4d4d4d;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-search.enter-pressed {
+    color: #fff;
+    background-color: #4d4d4d;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.pagination .page-link:focus, /* Remove focus style */
+.pagination .page-link:active { /* Apply styles when the arrow is pressed */
+    background-color: #fbb063; /* Orange background color */
+    border: 1px solid black; /* Orange border color */
+    color: #fff; /* Text color set to white */
+}
