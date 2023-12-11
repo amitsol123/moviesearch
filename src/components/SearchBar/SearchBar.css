@@ -1,0 +1,10 @@
+.btn-search {
+    background-color: #fbb063;
+    border: 1px solid black; /* Add border style */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-search:hover {
+    background-color: #4d4d4d; /* Dark grey on hover */
+    border-color: #000; /* Black border on hover */
+}
