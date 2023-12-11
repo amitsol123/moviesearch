@@ -12,7 +12,6 @@ MoviesSearch is a React-based web application that allows users to search for mo
     - [Usage](#usage)
     - [Technologies Used](#technologies-used)
     - [Contributing](#contributing)
-    - [License](#license)
     - [Teardown](#teardown)
 
 ## Overview
