@@ -30,7 +30,7 @@ MoviesSearch is a simple web application built with React. It allows users to se
 
 1. Clone the repository.
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/amitsol123/moviesearch.git
     ```
 2. Navigate to the project directory.
     ```bash
