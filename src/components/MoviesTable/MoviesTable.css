@@ -1,0 +1,53 @@
+/*!* Styles for table *!*/
+/*.table-custom {*/
+/*    border-collapse: collapse; !* Merge borders *!*/
+/*    border-spacing: 0; !* No space between cells *!*/
+/*    overflow: hidden;*/
+/*    border: 2px solid black;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.table-custom th {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    padding: 8px;*/
+/*}*/
+
+/*.table-custom th:first-child {*/
+/*    border-top-left-radius: 10px;*/
+/*}*/
+
+/*.table-custom th:last-child {*/
+/*    border-top-right-radius: 10px;*/
+/*}*/
+
+
+/* Styles for the table wrapper */
+.table-wrapper {
+    border: 2px solid black; /* Border for the wrapper */
+    border-radius: 10px; /* Curved corners for the wrapper */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Styles for table */
+.table-custom {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%; /* Ensure table takes full width */
+}
+
+.table-custom th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.table-custom th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table-custom th:last-child {
+    border-top-right-radius: 10px;
+}
