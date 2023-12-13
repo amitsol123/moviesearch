@@ -10,7 +10,6 @@ root.render(
     <Router>
         <Routes>
             <Route path="/" element={<MoviesSearchPage />} />
-            {/* Add more routes as needed */}
         </Routes>
     </Router>
 );
